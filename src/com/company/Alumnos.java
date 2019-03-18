@@ -9,4 +9,20 @@ public class Alumnos extends Personas {
         this.carreraestudia = carreraestudia;
         this.numerodecuentaalumno = numerodecuentaalumno;
     }
+
+    public String getCarreraestudia() {
+        return carreraestudia;
+    }
+
+    public void setCarreraestudia(String carreraestudia) {
+        this.carreraestudia = carreraestudia;
+    }
+
+    public String getNumerodecuentaalumno() {
+        return numerodecuentaalumno;
+    }
+
+    public void setNumerodecuentaalumno(String numerodecuentaalumno) {
+        this.numerodecuentaalumno = numerodecuentaalumno;
+    }
 }
